@@ -1,0 +1,40 @@
+#container{
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 4px gray;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: auto;
+}
+.top{
+    display: flex;
+}
+p{
+    font-family: sans-serif;
+    text-align: justify;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    border: none;
+    padding: 4px 10px;
+    border-radius: 7px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.add{
+    background-color: blue;
+}
+.back{
+    background-color: red;
+}
+article{
+    border-top: 0.2px solid gray;
+}
+::-webkit-scrollbar{
+    display: none;
+}

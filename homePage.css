@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-container {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 128, 0.96);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    height: 40px;
+    width: 350px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#nav-container>i {
+    font-size: 30px;
+    color: white;
+}
+
+.name {
+    color: white;
+    font-weight: 600;
+    margin-right: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cnt {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.card {
+    background-color: white;
+    height: 250px;
+    width: 220px;
+    box-shadow: 0 0 5px 5px gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card>h2 {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.rating {
+    background-color: orangered;
+    padding: 5px 8px;
+    color: white;
+    border-radius: 7px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.viewmore {
+    background-color: blue;
+    border-radius: 7px;
+    border: none;
+    padding: 5px 8px;
+    font-size: 16px;
+    color: white;
+}
+
+article {
+    display: flex;
+    gap: 20px;
+}
+
+a>i{
+    color: white;
+    font-size: 25px;
+}
